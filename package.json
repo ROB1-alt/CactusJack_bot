@@ -1,0 +1,14 @@
+{
+  "name": "bot_god",
+  "version": "1.0.0",
+  "description": "creating my first automatic bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rob1",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.0"
+  }
+}
