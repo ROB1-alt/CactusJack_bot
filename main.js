@@ -3,7 +3,7 @@ const client = new Discord.Client()
 const { prefix, token } = require('./config.json')
 const { Client, MessageEmbed } = require('discord.js')
 
-
+//Embed message
 
 
 client.on('message', message => {
@@ -85,15 +85,15 @@ client.on('message', message => {
       }
 
       case 'rules':{
-          message.channel.send('- Ne pas bully panati' )
+          message.channel.send('-List' )
       }
-      case 'robin':{
-        message.channel.send('En train de dev un bot pour madame')
+      case '':{
+        message.channel.send('')
       }
     
   }})
 
 
 
-client.login("NjYyNDMxODI0NzY4Nzk0NjYz.Xg53tg.w08TE27IgnktZQJ8r2FWlVV9ns8");
+client.login("your token");
 
